@@ -80,6 +80,10 @@ html, body {
 
 .text-teal {
   color: var(--bs-teal); }
+.fixed-top {
+	top: -40px;
+	transform: translateY(40px);
+	transition: transform .3s; }
 
 footer a:not(.nav-link) {
   color: inherit;
